@@ -1,0 +1,38 @@
+.menu{
+    background-color: aqua;
+    height: 70px;
+}
+a{
+    color: black;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 90px;
+    height: 28px;
+    text-align: center;
+    box-shadow: 5px 5px;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: rgb(174, 240, 42);
+    font-size: 25px;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+a:visited{
+    text-decoration: line-through;
+    color: green;
+}
+a:active{
+    background-color: aliceblue;
+    text-decoration: line-through;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
